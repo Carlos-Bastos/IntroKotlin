@@ -1,7 +1,7 @@
 /*1 - O usuário digitará sua idade e o programa deverá printar o ano em que ele nasceu.
 * */
 
-fun main(args: Array<String>) {
+fun main() {
     print("Digite a idade: ")
     val idade = readln().toInt()
     val ano = 2022
