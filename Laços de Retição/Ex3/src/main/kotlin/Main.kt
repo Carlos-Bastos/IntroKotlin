@@ -8,7 +8,7 @@ fun main() {
     var maior = 0
     var idade = 0
 
-    while (idade != -99) { //vai dar certo, mas dái esse while fica inútil
+    while (idade != -99) {
         print("Digite sua idade: ")
         idade = readln().toInt()
         if (idade <= 21) {
