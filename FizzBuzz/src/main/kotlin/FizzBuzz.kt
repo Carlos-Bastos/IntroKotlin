@@ -15,8 +15,3 @@ fun main() {
         }
     } while (num in 1..99)
 }
-
-
-
-
-
