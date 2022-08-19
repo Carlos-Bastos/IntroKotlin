@@ -13,5 +13,5 @@ fun main() {
         } else {
             println("$num")
         }
-    } while (num in 1..99)
+    } while (num in 0..99)
 }

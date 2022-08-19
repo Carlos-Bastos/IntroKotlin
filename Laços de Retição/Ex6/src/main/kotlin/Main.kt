@@ -4,17 +4,18 @@ final imprimir a média dos números múltiplos de 3. Para sair digitar
 
 fun main() {
     var cont = 0
-    var num: Int
+    var num = 0
     var soma = 0
 
     do {
         println("Digite qualquer número: ")
         num = readln().toInt()
+        cont++
 
         if (num % 3 == 0 && num != 0) {
-            cont++
+
             soma += num
         }
-    }while (num !== 0)
-    println("A média de todos os números digitados, múltiplos de 3 é: ${soma / cont}")
+    }while (num != 0)
+    println("A média de todos os números digitados, múltiplos de 3 é: ${soma / cont.toDouble()}")
 }

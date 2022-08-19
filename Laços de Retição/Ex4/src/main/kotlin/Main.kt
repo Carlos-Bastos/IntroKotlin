@@ -23,7 +23,7 @@ fun main() {
     var nerv40 = 0
     var calm18 = 0
 
-    while (cont < 150){
+    while (cont < 3){
         cont++
 
         println("Digite sua idade: ")
