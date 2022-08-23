@@ -8,7 +8,7 @@ fun main() {
     print("Escolha um modelo: 1 - Gen YE22 ou 2 - Gen YE22 PLUS")
     var modelo = readln()
     if (modelo == "1"){
-    fun modelo1
+    return  modelo1()
 
     }
 
