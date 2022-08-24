@@ -1,11 +1,11 @@
 package animal
 
-class cavalo(nome: String, idade: Int) : Animal(nome, idade) {
+class Cavalo(nome: String, idade: Int) : Animal(nome, idade) {
     override fun som() {
         println("Relinchando")
     }
 
     override fun move() {
-        println("Correndo")
+        println(" Está Correndo")
     }
 }
