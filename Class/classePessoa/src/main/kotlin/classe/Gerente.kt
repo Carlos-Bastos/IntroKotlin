@@ -1,11 +1,11 @@
-package Class
+package classe
 
 class Gerente(
     var nome: String,
     var endereco: String,
     var telefone: String
 ) {
-    private val ListaDeCompras = mutableListOf<String>()
+    val ListaDeCompras = mutableListOf<String>()
 
 
     fun addproduct(product: String) {
@@ -20,10 +20,10 @@ class Gerente(
     }
 
 
-    fun removeproduct() {
+    fun removeproduct(product: String) {
         while (true) {
-            println("Agora digite o produto a ser excluído da lista ou digite 1 para retornar ao menu principal: ")
-            val product = readln()
+            /*println("Agora digite o produto a ser excluído da lista ou digite 1 para retornar ao menu principal: ")
+            val product = readln()*/
 
             if (ListaDeCompras.contains(product)) {
                 ListaDeCompras.remove(product)

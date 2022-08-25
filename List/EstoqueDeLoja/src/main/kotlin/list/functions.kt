@@ -1,3 +1,5 @@
+import list.main
+
 val stock = mutableListOf<String>()
 
 fun addproduct(product: String) {

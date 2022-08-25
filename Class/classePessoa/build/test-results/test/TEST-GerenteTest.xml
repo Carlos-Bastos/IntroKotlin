@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GerenteTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-08-25T18:19:45" hostname="NONAME" time="0.129">
+  <properties/>
+  <testcase name="removeproduct()" classname="GerenteTest" time="0.07"/>
+  <testcase name="addproduct()" classname="GerenteTest" time="0.057"/>
+  <system-out><![CDATA[Leite adicionado com sucesso!
+
+Nescau adicionado com sucesso!
+
+Produto Nescau excluído com sucesso
+
+Leite adicionado com sucesso!
+
+Nescau adicionado com sucesso!
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
